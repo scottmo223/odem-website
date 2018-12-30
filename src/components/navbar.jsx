@@ -13,8 +13,10 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 
-export default class Example extends React.Component {
-  constructor(props) {
+export default class HeaderNav extends React.Component {
+
+    
+constructor(props) {
     super(props);
 
     this.toggle = this.toggle.bind(this);
@@ -31,7 +33,7 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Open Doors Evangelistic Ministries</NavbarBrand>
+          <NavbarBrand href="/">{this.props.children}</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -68,3 +70,4 @@ export default class Example extends React.Component {
     );
   }
 }
+
