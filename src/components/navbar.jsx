@@ -39,10 +39,10 @@ constructor(props) {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <Link to="/page-2/"><NavLink>About</NavLink></Link>
+                <Link to="/about/"><NavLink>About</NavLink></Link>
               </NavItem>
               <NavItem>
-                <Link to="/page-2/"><NavLink>Contact</NavLink></Link>
+                <Link to="/contact/"><NavLink>Contact Us</NavLink></Link>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
@@ -64,7 +64,7 @@ constructor(props) {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown> */}
-              <Button color="success">Donate!</Button>
+              <Button color="success">Online Giving</Button>
             </Nav>
           </Collapse>
         </Navbar>
