@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby'
 import {
   Collapse,
+  Button,
   Navbar,
   NavbarToggler,
   NavbarBrand,
@@ -46,7 +47,7 @@ constructor(props) {
               <NavItem>
                 <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
+              {/* <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   Options
                 </DropdownToggle>
@@ -62,7 +63,8 @@ constructor(props) {
                     Reset
                   </DropdownItem>
                 </DropdownMenu>
-              </UncontrolledDropdown>
+              </UncontrolledDropdown> */}
+              <Button color="success">Donate!</Button>
             </Nav>
           </Collapse>
         </Navbar>
