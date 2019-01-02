@@ -64,7 +64,7 @@ constructor(props) {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown> */}
-              <Button color="success" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=K68GMA2X9A3TU&item_name=ODEM+Missions+2019&currency_code=USD&source=url">Online Giving</Button>
+              <Button color="success" target="_blank" rel="noreferrer" ariaLabelledby="online giving Paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=K68GMA2X9A3TU&item_name=ODEM+Missions+2019&currency_code=USD&source=url">Online Giving</Button>
             </Nav>
           </Collapse>
         </Navbar>
