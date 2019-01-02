@@ -21,7 +21,9 @@ const Layout = ({ children }) => (
       <>
         <Navbar>{data.site.siteMetadata.title}</Navbar>
         <Container>
-          {children}
+          <div>
+            {children}
+          </div>
           <footer>
             © 2018, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
           </footer>
