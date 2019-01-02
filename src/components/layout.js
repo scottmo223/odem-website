@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
-import { Container } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 
 import Navbar from './navbar'
 import '../layouts/bootstrap.min.css'
@@ -24,9 +24,11 @@ const Layout = ({ children }) => (
           <div>
             {children}
           </div>
-          <footer>
-            © 2018, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
+          <Row>
+            <Col>
+              © 2018, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
+            </Col>
+          </Row>
         </Container>
       </>
     )}

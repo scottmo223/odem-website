@@ -14,10 +14,12 @@ const IndexPage = () => (
     <div style= {{ marginTop: `5%`, marginBottom: `6%` }}>
       <Carousel />
     </div>
-    <h1>Hello</h1>
-    <p>And Welcome to our site.</p>
-    <p>It is currently under development.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <hr />
+    <h1>Our Mission</h1>
+    <p>Our mission is to encourage local churches all over the nation, by training and supporting
+them through evangelism and discipleship, to achieve the Great Commission.</p>
+    
+    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`  }}>
       <Image />
     </div>
   </Layout>
