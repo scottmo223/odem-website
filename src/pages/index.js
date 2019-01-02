@@ -11,7 +11,7 @@ import Carousel from '../components/carousel'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`ODEM`, `missions`, `evangelism`]} />
-    <div style= {{ margin: `5rem 0rem` }}>
+    <div style= {{ margin: `5rem 0rem`, maxHeight: `400px` }}>
       <Carousel />
     </div>
     <hr />

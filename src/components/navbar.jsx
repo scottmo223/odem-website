@@ -32,7 +32,7 @@ constructor(props) {
   }
   render() {
     return (
-      <div>
+      <div className="sticky-top">
         <Navbar color="light" light expand="md">
         <NavbarBrand ><Link to="/" style={{ color: `#333333`}}>{this.props.children}</Link></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />

@@ -28,6 +28,15 @@ const Layout = ({ children }) => (
             <Col>
               © 2019, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
             </Col>
+            <Col>
+              <a href="https://www.gatsbyjs.org">Facebook</a>
+            </Col>
+            <Col>
+              <a href="https://www.gatsbyjs.org">Instagram</a>
+            </Col>
+            <Col>
+              <a href="https://www.gatsbyjs.org">Twitter</a>
+            </Col>
           </Row>
         </Container>
       </>
