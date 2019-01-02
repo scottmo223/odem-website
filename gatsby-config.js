@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Open Doors Evangelistic Ministries`,
     description: `ODEM is a non-profit organization that is bringing the Gospel to the nations. ODEM encourages church leadership to move outside of the wall of their church.`,
-    author: `scottmo223`,
+    author: `Scott Morales`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
