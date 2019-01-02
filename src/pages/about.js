@@ -8,7 +8,7 @@ const AboutPage = () => (
   <Layout>
     <SEO title="About ODEM" />
     <h1>ODEM's Mission</h1>
-    <p>Bring the message of Jesus to the nations.</p>
+    <p>Our mission is to encourage churches in several nations, by support and training in evangelism and discipleship, to achieve the Great Commission.</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
