@@ -26,7 +26,7 @@ const Layout = ({ children }) => (
           </div>
           <Row>
             <Col>
-              © 2018, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
+              © 2019, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
             </Col>
           </Row>
         </Container>
