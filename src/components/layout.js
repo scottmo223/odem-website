@@ -26,16 +26,16 @@ const Layout = ({ children }) => (
           </div>
           <Row>
             <Col>
-              © 2019, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
+              © 2019, Built By Scott Morales using <a href="https://www.gatsbyjs.org">Gatsby</a>
             </Col>
             <Col>
-              <a href="https://www.gatsbyjs.org">Facebook</a>
+              <a href="https://www.facebook.com/misionestransculturalesodem/" target="_blank">Facebook</a>
             </Col>
             <Col>
-              <a href="https://www.gatsbyjs.org">Instagram</a>
+              <a href="https://www.instagram.com">Instagram</a>
             </Col>
             <Col>
-              <a href="https://www.gatsbyjs.org">Twitter</a>
+              <a href="https://www.twitter.com">Twitter</a>
             </Col>
           </Row>
         </Container>
