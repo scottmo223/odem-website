@@ -5,6 +5,11 @@ import { Container, Row, Col } from 'reactstrap'
 
 import Navbar from './navbar'
 import '../layouts/bootstrap.min.css'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
+library.add(fab)
+
 
 const Layout = ({ children }) => (
   <StaticQuery

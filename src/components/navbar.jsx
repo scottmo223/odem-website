@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   Collapse,
   Button,
@@ -32,6 +33,7 @@ constructor(props) {
   }
   render() {
     return (
+      <>
       <div className="sticky-top">
         <Navbar color="light" light expand="md">
         <NavbarBrand ><Link to="/" style={{ color: `#333333`}}>{this.props.children}</Link></NavbarBrand>
@@ -64,11 +66,29 @@ constructor(props) {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown> */}
-              <Button color="success" target="_blank" rel="noreferrer" ariaLabelledby="online giving Paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=K68GMA2X9A3TU&item_name=ODEM+Missions+2019&currency_code=USD&source=url">Online Giving</Button>
+              <Button color="success" style={{ margin: '0em 0.6em'}} target="_blank" rel="noreferrer" ariaLabelledby="online giving Paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=K68GMA2X9A3TU&item_name=ODEM+Missions+2019&currency_code=USD&source=url">
+                <FontAwesomeIcon icon={['fab', 'paypal']} size="lg" color="#fff" style={{ margin: '0em 0.6em 0em 0.2em' }}/>
+                Online Giving
+              </Button>
             </Nav>
           </Collapse>
         </Navbar>
       </div>
+        <div class="d-flex justify-content-md-center justify-content-around">
+          <a href="https://www.facebook.com/misionestransculturalesodem/" target="_blank">
+            <FontAwesomeIcon icon={["fab", "facebook"]} size="3x" color="#333333"/>  
+          </a>
+          <a href="http://www.twitter.com">
+            <FontAwesomeIcon icon={['fab', 'twitter']} size="3x" color="#333333"/> 
+          </a>
+          <a href="http://www.youtube.com">  
+            <FontAwesomeIcon icon={['fab', 'youtube']} size="3x" color="#333333"/>
+          </a>
+          <a href="http://www.instagram.com">
+            <FontAwesomeIcon icon={['fab', 'instagram']} size="3x" color="#333333"/>
+          </a>
+        </div>
+      </>
     );
   }
 }
