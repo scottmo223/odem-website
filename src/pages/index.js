@@ -6,12 +6,16 @@ import Layout from '../components/layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
 import Carousel from '../components/carousel'
+import Social from '../components/social'
 
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`ODEM`, `missions`, `evangelism`]} />
-    <div style= {{ margin: `5rem 0rem`, maxHeight: `400px` }}>
+    <div style={{ margin: '4rem auto', maxWidth: '350px' }}>
+      <Social />
+    </div>
+    <div style= {{ margin: `5rem 0rem` }}>
       <Carousel />
     </div>
     <hr />
