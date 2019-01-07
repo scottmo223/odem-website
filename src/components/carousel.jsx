@@ -1,27 +1,34 @@
 import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
-import image1 from '../images/chuckFriends.jpg'
-import image2 from '../images/chuckFamily.jpg'
-import image3 from '../images/churchNotInMissions.jpg'
+import image1 from '../images_carousel/chuckPreaching.jpg'
+import image2 from '../images_carousel/prayForOutsideChurch.jpg'
+import image3 from '../images_carousel/prayForMexico.jpg'
+import image4 from '../images_carousel/prayForSpain.jpg'
 
 const items = [
   {
     src: image1,
-    altText: 'Slide 1',
-    caption: 'Slide 1',
-    header: 'Slide 1 Header'
+    altText: 'Chuck Preaching',
+    caption: '',
+    header: 'Chuck Perez'
   },
   {
     src: image2,
-    altText: 'Slide 2',
-    caption: 'Slide 2',
-    header: 'Slide 2 Header'
+    altText: 'Pray for the church',
+    caption: '',
+    header: ''
   },
   {
     src: image3,
-    altText: 'Slide 3',
-    caption: 'Slide 3',
-    header: 'Slide 3 Header'
+    altText: 'Pray for Mexico',
+    caption: '',
+    header: ''
+  },
+  {
+    src: image4,
+    altText: 'Pray for Spain',
+    caption: '',
+    header: 'Pray for Spain'
   }
 ];
 
