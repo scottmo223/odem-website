@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
 import { Container, Row, Col } from 'reactstrap'
 
 import Navbar from './navbar'
@@ -12,26 +11,16 @@ library.add(fab)
 
 
 const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
-    render={data => (
       <>
-        <Navbar>{data.site.siteMetadata.title}</Navbar>
+        <div className="bg-light">
+        <Navbar>ODEM Missions</Navbar>
         <Container>
           <div>
             {children}
           </div>
           <Row>
-            <Col>
-              © 2019, Built By Scott Morales using <a href="https://www.gatsbyjs.org">Gatsby</a>
+            <Col xs="8">
+              © 2019, Built By <a href='https://github.com/scottmo223/'>Scott Morales</a>
             </Col>
             <Col>
               <a href="https://www.facebook.com/misionestransculturalesodem/" target="_blank">Facebook</a>
@@ -44,10 +33,10 @@ const Layout = ({ children }) => (
             </Col>
           </Row>
         </Container>
+        </div>
       </>
-    )}
-  />
-)
+    )
+
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

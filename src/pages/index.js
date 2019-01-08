@@ -12,6 +12,7 @@ import Social from '../components/social'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`ODEM`, `missions`, `evangelism`]} />
+    <h1 style={{ margin: '4rem auto', fontWeight: 'bold', fontSize: '4em' }} className='text-center text-dark'>Open Doors Evangelistic Ministries</h1>
     <div style={{ margin: '4rem auto', maxWidth: '350px' }}>
       <Social />
     </div>
@@ -19,12 +20,12 @@ const IndexPage = () => (
       <Carousel />
     </div>
     <hr />
-    <div style={{ margin: `5rem 3rem` }}>
+    <div style={{ margin: `5rem 4rem 5rem 3rem` }}>
       <h1>Our Mission</h1>
       <p>Our mission is to encourage churches in several nations, by support and training in evangelism and discipleship, to achieve the Great Commission.</p>
     </div>
     <hr />
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+      <div style={{ maxWidth: `400px`, margin: '4rem auto' }}>
         <Image />
       </div>
     

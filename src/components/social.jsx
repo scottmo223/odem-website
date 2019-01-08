@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const linkColor = "rgba(0,0,0,0.5)"
+const linkColor = "#6c757d"
 
 const socialLinks = () => (
   <div class="d-flex justify-content-around">

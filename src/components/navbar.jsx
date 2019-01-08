@@ -30,21 +30,30 @@ constructor(props) {
   render() {
     return (
       <div className="sticky-top">
-        <Navbar color="light" light expand="md">
-        <NavbarBrand ><Link to="/" style={{ color: `#333333`}}>{this.props.children}</Link></NavbarBrand>
+        <Navbar color="dark" dark expand="md">
+        <Link to="/">
+          <NavbarBrand style={{ color: 'rgba(255,255,255,.5)', fontWeight: '800' }}>{this.props.children}</NavbarBrand>
+        </Link>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
+              <NavItem>
+                <Link to="/"><NavLink>Home</NavLink></Link>
+              </NavItem>
               <NavItem>
                 <Link to="/about/"><NavLink>About</NavLink></Link>
               </NavItem>
               <NavItem>
                 <Link to="/contact/"><NavLink>Contact Us</NavLink></Link>
               </NavItem>
-              <Button color="success" style={{ margin: '0em 0.6em'}} target="_blank" rel="noreferrer" ariaLabelledby="online giving Paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=K68GMA2X9A3TU&item_name=ODEM+Missions+2019&currency_code=USD&source=url">
-                <FontAwesomeIcon icon={['fab', 'paypal']} size="lg" color="#fff" style={{ margin: '0em 0.6em 0em 0.2em' }}/>
-                Online Giving
-              </Button>
+              <NavItem>
+                <Link to="/contact/">
+                  <NavLink>
+                    Online Giving
+                    <FontAwesomeIcon icon={['fab', 'paypal']} size="lg" style={{ marginLeft: '0.3em' }}/>
+                  </NavLink>
+                </Link>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
