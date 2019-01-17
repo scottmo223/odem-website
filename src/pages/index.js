@@ -11,11 +11,15 @@ import Social from '../components/social'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`ODEM`, `missions`, `evangelism`]} />
-    <h1 style={{ margin: '4rem auto', fontWeight: 'bold', fontSize: '4em' }} className='text-center text-dark'>Open Doors Evangelistic Ministries</h1>
+    <SEO title="Odem Missions" keywords={[`ODEM`, `missions`, `evangelism`]} />
+    <h1 style={{ margin: '4rem auto', fontWeight: 'bold', fontSize: '4em' }} className='text-dark'>Open Doors Evangelistic Ministries</h1>
+    <hr />
     <div style={{ margin: '4rem auto', maxWidth: '350px' }}>
+      <h1>Social Media</h1>
+      <p>Follow our social media for current events</p>
       <Social />
     </div>
+    <hr />
     <div style= {{ margin: `5rem 0rem` }}>
       <Carousel />
     </div>

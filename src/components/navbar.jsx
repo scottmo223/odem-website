@@ -47,7 +47,7 @@ constructor(props) {
                 <Link to="/contact/"><NavLink>Contact Us</NavLink></Link>
               </NavItem>
               <NavItem>
-                <Link to="/contact/">
+                <Link to="/donate/">
                   <NavLink>
                     Online Giving
                     <FontAwesomeIcon icon={['fab', 'paypal']} size="lg" style={{ marginLeft: '0.3em' }}/>

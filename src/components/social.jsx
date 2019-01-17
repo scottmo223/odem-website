@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const linkColor = "#6c757d"
 
 const socialLinks = () => (
-  <div class="d-flex justify-content-around">
+  <div class="d-flex justify-content-around" style={{marginTop: '2rem'}}>
     <a href="https://www.facebook.com/misionestransculturalesodem/" target="_blank">
       <FontAwesomeIcon icon={["fab", "facebook"]} size="3x" color={linkColor}/>  
     </a>
