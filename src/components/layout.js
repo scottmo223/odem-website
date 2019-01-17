@@ -24,22 +24,20 @@ const Layout = ({ children }) => (
             <Col>
               © 2019, Built By <a href='https://github.com/scottmo223/'>Scott Morales</a>
             </Col>
-            {/* <div class="d-flex justify-content-around" style={{marginTop: '2rem'}}> */}
-             <Col>
-              <a href="https://www.facebook.com/misionestransculturalesodem/" target="_blank">
+            <Col>
+              <a href="https://www.facebook.com/misionestransculturalesodem/" target="_blank" rel="noopener">
                 <FontAwesomeIcon icon={["fab", "facebook"]} size="2x" color={linkColor}/>  
               </a><span> </span> 
-              <a href="http://twitter.com/ODEMmisiones" target="_blank">
+              <a href="http://twitter.com/ODEMmisiones" target="_blank" rel="noopener">
                 <FontAwesomeIcon icon={['fab', 'twitter']} size="2x" color={linkColor}/> 
               </a><span> </span> 
-              <a href="https://www.youtube.com/channel/UC1N70D-r23mREV7gBDtBOvw" target="_blank">  
+              <a href="https://www.youtube.com/channel/UC1N70D-r23mREV7gBDtBOvw" target="_blank" rel="noopener">  
                 <FontAwesomeIcon icon={['fab', 'youtube']} size="2x" color={linkColor}/>
               </a><span> </span> 
-              <a href="https://www.instagram.com/misionestrasculturales_odem/" target="_blank">
+              <a href="https://www.instagram.com/misionestrasculturales_odem/" target="_blank" rel="noopener">
                 <FontAwesomeIcon icon={['fab', 'instagram']} size="2x" color={linkColor}/>
               </a>
             </Col>
-            {/* </div> */}
           </Row>
         </div>
       </>

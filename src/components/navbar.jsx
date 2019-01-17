@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'gatsby';
 import {
   Collapse,
-  Button,
   Navbar,
   NavbarToggler,
   NavbarBrand,
