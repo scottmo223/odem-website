@@ -21,7 +21,7 @@ const Layout = ({ children }) => (
           </div>
         </Container>
           <Row>
-            <Col >
+            <Col>
               © 2019, Built By <a href='https://github.com/scottmo223/'>Scott Morales</a>
             </Col>
             {/* <div class="d-flex justify-content-around" style={{marginTop: '2rem'}}> */}
