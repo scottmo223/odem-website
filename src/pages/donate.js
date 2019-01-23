@@ -10,7 +10,7 @@ const ContactUs = () => (
     <p className="my-5">Give instantly online or send a check through the mail</p>
     <hr />
     
-    <div className="d-flex flex-column flex-sm-row justify-content-md-around align-items-center align-items-sm-stretch">
+    <div className="d-flex flex-column flex-sm-row justify-content-sm-around align-items-center align-items-sm-stretch">
      
       <div className="card border-dark my-3 my-sm-5" style={{width: '18rem'}}>
         <div className="card-body">

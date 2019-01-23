@@ -13,17 +13,32 @@ import Social from '../components/social'
 const IndexPage = () => (
   <Layout>
     <SEO title="Odem Missions" keywords={[`ODEM`, `missions`, `evangelism`]} />
-    <div style={{position: 'relative'}}>
+    
+    <div style={{position: 'relative', marginBottom: '4rem',}}>
       <HeaderImage />
       <h1 style={{ position: 'absolute', top: '50%', left: '50%', fontWeight: 'bold', fontSize: '3.7em', transform: 'translate(-50%, -52%)', width: 'fit-content'}} className='text-dark'>Open Doors Evangelistic Ministries</h1>
     </div>
+
     <Container>
-      <div style={{ margin: '4rem auto', maxWidth: '350px' }}>
-        <h1>Social Media</h1>
-        <p>Follow our social media for current events</p>
-        <Social />
+      
+      <div className='d-flex flex-column flex-sm-row justify-content-sm-around align-items-center align-items-sm-stretch'>
+        <div className='card mb-5 mb-sm-0' style={{width: '18rem', height: '13rem'}}>
+          <h4 className='card-title text-white bg-secondary mb-3 p-2'>Social Media</h4>
+          <p className='card-text'>Follow our social media for current events</p>
+          <Social />
+        </div>
+        <div className='card' style={{width: '18rem'}}>
+          <h4 className='card-title text-white bg-secondary mb-0 p-2'>Upcoming Events</h4>
+          <ul className="list-group list-group-flush">
+            <li className="list-group-item">Jan 23 Saint Paul, MN</li>
+            <li className="list-group-item">Feb 13-15 Madrid, Spain</li>
+            <li className="list-group-item">Jun 10-13 Guadalajara, Mexico</li>
+            <li className="list-group-item">Apr 12-22 Your Church, Somewhere</li>
+          </ul>
+          
+        </div>
       </div>
-      <hr />
+
       <div style= {{ margin: `5rem 0rem` }}>
         <Carousel />
       </div>
