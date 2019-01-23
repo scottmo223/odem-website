@@ -1,6 +1,6 @@
 import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
-import image1 from '../images_carousel/chuckPreaching.jpg'
+import image1 from '../images_carousel/carousel1.jpg'
 import image2 from '../images_carousel/prayForOutsideChurch.jpg'
 import image3 from '../images_carousel/prayForMexico.jpg'
 import image4 from '../images_carousel/prayForSpain.jpg'
@@ -10,7 +10,7 @@ const items = [
     src: image1,
     altText: 'Chuck Preaching',
     caption: '',
-    header: 'Chuck Perez'
+    header: ''
   },
   {
     src: image2,

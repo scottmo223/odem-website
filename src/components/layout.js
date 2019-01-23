@@ -15,11 +15,9 @@ const Layout = ({ children }) => (
       <>
         <div className="bg-light text-center">
         <Navbar>ODEM Missions</Navbar>
-        <Container>
           <div>
             {children}
           </div>
-        </Container>
           <Row>
             <Col>
               © 2019, Built By <a href='https://github.com/scottmo223/'>Scott Morales</a>
