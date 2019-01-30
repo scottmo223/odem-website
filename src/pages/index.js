@@ -11,7 +11,6 @@ import Social from '../components/social'
 
 
 export default ({data}) => {
-  console.log(data.allMarkdownRemark.edges[0].node.html)
   return (
     <Layout>
       <SEO title="Odem Missions" keywords={[`ODEM`, `missions`, `evangelism`]} />
@@ -31,10 +30,7 @@ export default ({data}) => {
           </div>
           <div className='card' style={{width: '18rem'}}>
             <h4 className='card-title text-white bg-secondary mb-3 p-2'>{data.allMarkdownRemark.edges[0].node.frontmatter.title}</h4>
-            {/* <ul className="list-group list-group-flush"> */}
-              <span className='align-items-left' dangerouslySetInnerHTML={{__html: `${data.allMarkdownRemark.edges[0].node.html}`}} />
-            {/* </ul> */}
-            
+            <span className='align-items-left' dangerouslySetInnerHTML={{__html: `${data.allMarkdownRemark.edges[0].node.html}`}} />
           </div>
         </div>
 
