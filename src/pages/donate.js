@@ -4,7 +4,7 @@ import SEO from '../components/seo'
 
 const ContactUs = () => (
   <Layout>
-    <SEO title="Contact Us" />
+    <SEO title="Donations" />
     <h1 style={{ margin: '4rem auto', fontWeight: 'bold', fontSize: '4em' }} className='text-dark'>Support Our Mission</h1>
     <hr />
     <p className="my-5">Give instantly online or send a check through the mail</p>
