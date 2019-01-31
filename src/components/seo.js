@@ -64,7 +64,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                 .concat(meta)}
             />
             <Helmet>
-              <link rel="apple-touch-icon" sizes="160x160" href="src/image/open_doors_logo_globe160.png" />
+              <link rel="apple-touch-icon" sizes="180x180" href="src/image/open_doors_logo_globe180.png" />
             </Helmet>
           </>
         )
