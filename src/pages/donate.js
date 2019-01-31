@@ -46,7 +46,6 @@ export const query = graphql`
           frontmatter {
             title
             templateKey
-            image
             heading
             description
           }
