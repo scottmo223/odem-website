@@ -95,19 +95,3 @@ class Example extends Component {
 
 export default Example;
 
-<StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
-    render={data => (
-      <>
-        <Navbar>{data.site.siteMetadata.title}</Navbar>
-      </>
-      )}>
-      </StaticQuery>

@@ -9,7 +9,7 @@ const ContactUs = () => (
     <SEO title="Contact Us" />
     <h1>Send us a message!</h1>
     <Link to="/">Go back to the homepage</Link>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdJBx2VN6FXNZI_NuRIsTKoyUZCCg-2ZIRd5jzB8pkkHUhkwg/viewform?embedded=true" width="640" height="1087" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe title="formGoogle" src="https://docs.google.com/forms/d/e/1FAIpQLSdJBx2VN6FXNZI_NuRIsTKoyUZCCg-2ZIRd5jzB8pkkHUhkwg/viewform?embedded=true" width="640" height="1087" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
   </Layout>
 )
 

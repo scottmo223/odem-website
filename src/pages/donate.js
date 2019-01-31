@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import { graphql } from 'gatsby'
 
 export default ({data}) => {
   return (
@@ -18,7 +19,7 @@ export default ({data}) => {
             <h5 className="card-title">Pay Online</h5>
             <h6 className="card-subtitle mb-2 text-muted">PayPal</h6>
             <p className="card-text">{data.allMarkdownRemark.edges[0].node.frontmatter.description}</p>
-            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=K68GMA2X9A3TU&item_name=ODEM+Missions+2019&currency_code=USD&source=url" target="_blank" rel="noopener">
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=K68GMA2X9A3TU&item_name=ODEM+Missions+2019&currency_code=USD&source=url" target="_blank" rel="noopener noreferrer">
               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
               <img alt="credit card options" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
             </a>
