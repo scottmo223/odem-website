@@ -12,4 +12,4 @@ Feb 14 | Manzanillo, Colima
 
 Feb 15 | Colima, Colima
 
-Feb 15-16 | Gaudalajara, Jal
+Feb 15-16 | Guadalajara, Jal
