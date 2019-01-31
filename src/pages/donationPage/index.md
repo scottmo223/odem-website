@@ -1,13 +1,8 @@
 ---
-templateKey: 'donation'
-title: Donation Page
-image: /src/images/holdingGlobeInSun.jpg
+templateKey: donation
 heading: Support Our Mission
-description: 'Click the link below to donate online' 
-pricing:
-  heading: Monthly subscriptions
+description: Click the link below to donate online using PayPal
 ---
 Give instantly online or send a check through the mail. 
 
-### Contact us for other ways to give
-
+_Contact us for other ways to give_
