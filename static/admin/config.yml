@@ -9,16 +9,29 @@ display_url: https://www.odemmissions.com/
 logo_url: https://www.odemmissions.com/static/738ecb31adbe4110d4c7a5731ab74f5c/24f49/open_doors_logo_5.png
 
 collections:
-  - label: "Update Website Content"
-    name: "content"
-    description: "Add or remove upcoming events"
+  - label: "Homepage Content"
+    name: "homepageContent"
+    description: "Edit contents on the homepage of your website"
     files:
       - label: "Upcoming Events"
         name: "events"
         description: "Click here to edit events"
-        file: "src/pages/events/index.md"
+        file: "src/pages/homePage/events.md"
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "events" }
           - { label: "Events Title", name: "title", widget: "string" }
           - { label: "List of Events", name: "body", widget: "text", hint: "Use format: MMM DD | City, ST" }
+  - label: "Donation Page Content"
+    name: "DonationPageContent"
+    description: "Edit contents on the donation page of your website"
+    files:
+      - label: "Donation Page"
+        name: "events"
+        description: "Edit contents on the homepage of your website"
+        file: "src/pages/donationPage/index.md"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "donation" }
+          - { label: "Headline Title", name: "heading", widget: "string" }
+          - { label: "Main Message Under Headline", name: "body", widget: "markdown"}
+          - { label: "Online Donation Directions", name: "description", widget: "string" }
           

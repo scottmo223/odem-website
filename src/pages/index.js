@@ -30,7 +30,7 @@ export default ({data}) => {
           </div>
           <div className='card' style={{width: '18rem'}}>
             <h4 className='card-title text-white bg-secondary mb-3 p-2'>{data.allMarkdownRemark.edges[0].node.frontmatter.title}</h4>
-            <span className='align-items-left' dangerouslySetInnerHTML={{__html: `${data.allMarkdownRemark.edges[0].node.html}`}} />
+            <span dangerouslySetInnerHTML={{__html: `${data.allMarkdownRemark.edges[0].node.html}`}} />
           </div>
         </div>
 
