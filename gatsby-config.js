@@ -33,7 +33,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        //icon: `src/images/open_doors_logo_globe160.png`, 
+        icon: `src/images/open_doors_logo_globe160.png`, 
       },
     },
     {
