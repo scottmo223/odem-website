@@ -63,16 +63,6 @@ function SEO({ description, lang, meta, keywords, title }) {
                 )
                 .concat(meta)}
             />
-            <Helmet>
-              <link rel="apple-touch-icon" sizes="180x180" href="src/image/open_doors_logo_globe180.png" />
-              <link rel="icon" type="image/png" href="src/image/favicon.png" />
-              <link rel="apple-touch-icon" href="src/image/touch-icon-iphone.png" />
-              <link rel="apple-touch-icon" sizes="152x152" href="src/image/touch-icon-ipad.png" />
-              <link rel="apple-touch-icon" sizes="167x167" href="src/image/touch-icon-ipad-retina.png" />
-              <link rel="apple-touch-icon" sizes="180x180" href="src/image/touch-icon-iphone-retina.png" />
-              <link rel="icon" sizes="192x192" href="src/image/android-icon.png" />
-              <meta name="msapplication-square310x310logo" content="src/image/microsoft-icon.png" />
-            </Helmet>
           </>
         )
       }}

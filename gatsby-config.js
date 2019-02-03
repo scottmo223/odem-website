@@ -32,8 +32,9 @@ module.exports = {
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/open_doors_logo_globe160.png`, 
+        display: `browser`,
+        icon: `src/images/open_doors_logo_globe.png`, 
+        include_favicon: true,
       },
     },
     {
