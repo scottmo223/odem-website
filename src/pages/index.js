@@ -37,11 +37,19 @@ export default ({data}) => {
         <div style= {{ margin: `5rem 0rem` }}>
           <Carousel />
         </div>
+
+        <hr />
+        <div style={{ margin: `5rem 4rem 5rem 3rem` }}>
+          <h1>Our Vision</h1>
+          <p>Our Vision is that no one should perish (2 Peter 3:9) regardless of nationality, gender or religion. The Lord has commissioned us to go into the nations and preach the Gospel to every creature. We want to be part of the Great Harvest that is happening all over the world.</p>
+        </div>
+
         <hr />
         <div style={{ margin: `5rem 4rem 5rem 3rem` }}>
           <h1>Our Mission</h1>
-          <p>Our mission is to encourage churches in several nations, by support and training in evangelism and discipleship, to achieve the Great Commission.</p>
+          <p>Our mission is to preach the Gospel through outreach events, training and supporting local churches, and experiencing firsthand what it is to go into another culture and share the Love of God.</p>
         </div>
+
         <hr />
           <div style={{ maxWidth: `400px`, margin: '4rem auto' }}>
             <Image />
