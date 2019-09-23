@@ -2,14 +2,10 @@
 templateKey: events
 title: Upcoming Events
 ---
-Jan 26-28 | St Paul, MN 
+Sep 28-29 | Chicago, IL 
 
-Feb 10-11  |  Delicias, Chihuahua
+Oct 12-13  |  Phoenix, AZ
 
-Feb 12-13 | Oaxaca
+Oct 19-20 | Hemet, CA
 
-Feb 14 | Manzanillo, Colima
 
-Feb 15 | Colima, Colima
-
-Feb 15-16 | Guadalajara, Jal
